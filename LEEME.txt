@@ -1,0 +1,25 @@
+RECIBOS · ABOGADA EMILCE ABENTE
+
+Para usar la versión local, abrir dist/index.html con Chrome o Edge.
+Usar siempre el mismo navegador, perfil y ubicación de la aplicación.
+
+1. En Clientes, registrar nombre, documento, teléfono y dirección.
+2. En Nuevo recibo, elegir cliente, fecha, ciudad, concepto e importe en guaraníes.
+3. Guardar el recibo. Luego pulsar Imprimir recibo guardado.
+4. En el diálogo de impresión, elegir la impresora EPSON instalada.
+   Configurar el rollo en el controlador de Windows (80 o 58 mm), escala
+   100 %, márgenes mínimos y sin encabezados ni pies de página.
+   Elegir también el ancho correcto en Configuración de la aplicación.
+5. Reimprimir desde Historial de recibos.
+
+La aplicación funciona sin dependencias externas ni conexión a Internet
+en su versión local. Los datos se guardan únicamente en el almacenamiento
+del navegador: no se sincronizan entre equipos, perfiles o la versión web.
+No usar navegación privada. Descargar respaldos periódicamente y antes
+de borrar datos del navegador o cambiar de equipo.
+Restaurar un respaldo reemplaza los datos actuales, previa confirmación.
+Los recibos guardados conservan los datos del cliente y del estudio
+tal como estaban al emitirse. Los importes se registran en guaraníes enteros.
+
+No se ha probado con una impresora física. El corte automático depende
+del controlador y modelo de EPSON; el navegador no envía comandos ESC/POS.
